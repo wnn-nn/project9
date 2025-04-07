@@ -39,7 +39,7 @@ $conn->close();
     <!-- Update Product Form -->
     <div class="container mt-5">
         <h2 class="container-fluid text-center mb-4" style="color:  #d19c56;">Add New Product</h2>
-        <form method="container POST">
+        <form method="POST">
         <div class="form-group mb-3">
             <label for="nama_produk">Product Name</label>
             <input type="text" class="form-control" id="nama_produk" name="nama_produk" required>
